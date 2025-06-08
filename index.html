@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nosso Joguinho de Amor 2.0💜</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Adicione a linha abaixo para o ícone -->
+  <link rel="icon" href="img/k.png" type="image/png">
+</head>
+<body>
+  <div class="container">
+    <h1>💌 Nosso Joguinho de Amor 2.0💌</h1>
+    <div id="game">
+      <p id="question">Digite seu nome para começar:</p>
+      <input type="text" id="answerInput" placeholder="Seu nome..." />
+      <div id="options" style="display: none;"></div>
+      <div id="buttons">
+        <button onclick="checkAnswer()" id="mainButton">Enviar</button>
+      </div>
+      <p id="feedback"></p>
+    </div>
+  </div>
+
+  <!-- Player de áudio para as músicas -->
+  <audio id="audioPlayer"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
